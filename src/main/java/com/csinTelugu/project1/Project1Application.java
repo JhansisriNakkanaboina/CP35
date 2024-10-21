@@ -14,7 +14,7 @@ public class Project1Application {
     }
 
     // CORS Configuration to allow requests from all origins
-    @Bean
+    @Bean 
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
